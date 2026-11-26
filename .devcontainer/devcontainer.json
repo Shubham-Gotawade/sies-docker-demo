@@ -1,0 +1,14 @@
+{
+  "name": "IEEE SIESGST Docker 2026 Lab",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {
+      "moby": true,
+      "dockerDashComposeVersion": "v2"
+    }
+  },
+  "forwardPorts": [8000, 8080],
+  "portsAttributes": {
+    "8000": { "label": "FastAPI Hackathon Board", "onAutoForward": "openBrowser" }
+  }
+}
