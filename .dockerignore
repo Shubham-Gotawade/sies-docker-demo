@@ -1,15 +1,7 @@
 .git
-.gitignore
-.devcontainer
 .venv
-venv
 __pycache__
 *.pyc
-*.pyo
-.env
-.env.*
-.vscode
-.DS_Store
 README.md
 Dockerfile*
 compose.yaml
